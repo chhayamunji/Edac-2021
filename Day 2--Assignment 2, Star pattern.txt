@@ -1,0 +1,702 @@
+
+PATTERN1:
+
+*
+**
+***
+****
+*****
+
+
+class pattern1
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	       {
+		      for (int j=1; j<=i; j++)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+	       }
+  }
+			  
+}
+
+----------------------------------------------------------------------------------**
+
+PATTERN 2:
+
+    *
+   **
+  ***
+ ****
+*****
+
+class pattern2
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	   {
+			   
+		 for(int k=4; k>=i ; k--)
+				   
+		  {
+		      System.out.print(" ");
+					   
+		  }
+			   
+		for (int j=1; j<=i; j++)
+		 {
+		     System.out.print("*");
+
+		 }
+			  
+			  System.out.println();
+	  }
+}
+			  
+}
+
+------------------------------------------------------------------------------------**
+
+PATTERN 3:
+
+*****
+****
+***
+**
+*
+
+class pattern3{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+      {
+	   for (int j=5; j>=i; j--)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+			  }
+			  
+ }
+			  
+			  
+}
+
+
+-------------------------------------------------------------------------------------**
+
+PATTERN 4 :
+
+ *****
+  ****
+   ***
+    **
+     *
+
+class pattern4{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	       {
+			  
+			   
+		      for (int j=1; j<=i; j++)
+			  {
+			     System.out.print(" ");
+			  }
+			  
+			   for(int k=5; k>=i; k--)
+			    {
+			     System.out.print("*");
+			    }
+			   
+			  System.out.println();
+			  
+			  }
+			  
+ }
+			  
+}
+
+-------------------------------------------------------------------------------------------**
+
+PATTERN 5:
+
+    *
+   ***
+  *****
+ *******
+*********
+
+class pattern5
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+{
+ for( int j=4; j>=i ; j--)
+			
+  {
+    System.out.print(" ");
+					 
+   }
+				
+for( int k=1; k<=i ; k++)
+			
+   {
+				
+     System.out.print("*");
+					 
+   }	
+				
+for( int l=2 ; l<=i ; l++)
+			
+   {
+      System.out.print("*");
+   }	
+				
+				
+System.out.println();
+				
+}
+				
+}
+}
+
+----------------------------------------------------------------------------------**
+
+
+PATTERN 6:
+
+ *******
+  *****
+   ***
+    *
+
+
+class pattern6
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=4; i++)
+         
+{
+ for( int j=1; j<=i ; j++)
+			
+    {
+        System.out.print(" ");
+    }
+				
+for( int k=4; k>=i ; k--)
+			
+    {
+	 System.out.print("*");
+					 
+     }	
+for( int l=3 ; l>=i ; l--)
+			
+     {
+	 System.out.print("*");
+					 
+     }	
+				
+System.out.println( );
+				
+}
+}
+}
+
+---------------------------------------------------------------------------------**
+
+
+PATTERN 7:
+
+    *
+   ***
+  *****
+ *******
+  *****
+   ***
+    *
+
+class pattern7
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=4; i++)
+         
+ {
+ for( int j=4; j>=i ; j--)
+   {
+      System.out.print(" ");
+   }
+				
+for( int k=1; k<=i ; k++)
+   {
+				
+     System.out.print("*");
+   }	
+				
+for( int l=2 ; l<=i ; l++)
+			
+    {
+       System.out.print("*");
+    }	
+				
+System.out.println();
+				
+}
+				
+   for(int i=1; i<=4; i++)
+         
+      {
+	for( int j=0; j<=i ; j++)
+			
+	    {
+		System.out.print(" ");
+	    }
+				
+				
+	for( int k=3; k>=i ; k--)
+	    {
+				
+	     System.out.print("*");
+					 
+	    }	                                                                               
+                                                                                                
+	for( int l=2 ; l>=i ; l--)                                                         
+	                                                                              
+	    {                                                                                   
+	      System.out.print("*");
+	    }	
+				
+System.out.println();
+				
+}
+}
+}
+
+-----------------------------------------------------------------------------**
+
+PATTERN 8:
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+class pattern8
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+  {
+     for (int j=1; j<=i; j++)
+	  {
+	     System.out.print("*");
+	  }
+			  
+     System.out.println();
+			  
+  }
+			  
+ for(int i=1; i<=5; i++)
+ {
+			   
+      for (int j=4; j>=i; j--)
+	 {
+	      System.out.print("*");
+         }
+			  
+ System.out.println();
+}
+			  
+}
+}
+
+-----------------------------------------------------------------------------------**
+
+PATTERN 9:
+
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+
+
+class a 
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	 {
+			   
+ for(int k=4; k>=i ; k--)
+				   
+	 {
+	     System.out.print(" ");
+					   
+         }		   
+for (int j=1; j<=i; j++)
+	 {
+	   System.out.print("*");
+	  }
+			  
+	System.out.println();
+			  
+ }
+			  			  
+for(int i=1; i<=5; i++)
+ {
+     for (int j=1; j<=i; j++)
+	{
+	   System.out.print(" ");
+	}
+			  
+	 for(int k=4; k>=i; k--)
+        {
+	    System.out.print("*");
+        }
+System.out.println();
+			  
+ }			  
+}
+
+-------------------------------------------------------------------------------**
+
+PATTERN 10:
+
+    *****
+   *****
+  *****
+ *****
+*****
+
+class pattern10{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	       {
+			   
+			   for(int k=4; k>=i ; k--)
+				   
+			  { 
+			     System.out.print(" ");
+			  }
+			   
+		      for (int j=1; j<=i; j++)
+			  {
+			     System.out.print("*");
+			  }
+			  
+	
+		      for (int j=4; j>=i; j--)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+ }
+}
+}
+
+-------------------------------------------------------------------------------------------------***
+
+
+PATTERN 11:
+
+******
+  ******
+   ******
+    ******
+     ******
+
+
+class pattern11{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+	       {
+			  
+			   
+		      for (int j=1; j<=i; j++)
+			  {
+			     System.out.print(" ");
+			  }
+			  
+			  for(int k=5; k>=i; k--)
+			  {
+			    System.out.print("*");
+			  }
+			  
+	       
+		      for (int j=1; j<=i; j++)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+			  }
+			  
+  }
+			  
+			  
+}
+----------------------------------------------------------------------------**
+
+
+
+
+
+PATTERN 12:
+
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+
+
+
+class pattern12
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+         { 
+		      for (int j=5; j>=i; j--)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+	 }
+			  
+		
+for(int i=1; i<=4; i++)
+	    {
+		      for (int j=0; j<=i; j++)
+			  {
+			     System.out.print("*");
+			  }
+			  
+			  System.out.println();
+			  
+	     }
+}	
+}
+
+-------------------------------------------------------------------**
+
+PATTERN 13:
+
+ *****
+  ****
+   ***
+    **
+     *
+    **
+   ***
+  ****
+ *****
+
+
+class pattern13
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+{
+			  
+    for (int j=1; j<=i; j++)
+	{
+	   System.out.print(" ");
+        }		  
+			  
+    for(int k=5; k>=i; k--)
+        {
+	    System.out.print("*");
+	}
+System.out.println();
+			  
+ }
+			 			 
+for(int i=1; i<=4; i++)
+    {
+      for(int k=4; k>=i ; k--)
+	  {
+	     System.out.print(" ");   
+          }
+			   
+       for (int j=0; j<=i; j++)
+          {
+	      System.out.print("*");
+				 
+	   }
+System.out.println();
+ }
+}
+}
+-----------------------------------------------------------------------**
+
+PATTERN 14:
+
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+
+
+class pattern14
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+ { 
+  for( int j=1; j<=i ; j++)
+    {
+        System.out.print(" ");
+    }		
+   for( int k=5; k>=i ; k--)	
+    {
+	System.out.print(" *");
+					 
+    }	
+System.out.println();
+ }
+				
+for(int i=2; i<=5; i++)
+  {
+   for( int j=5; j>=i ; j--)
+	{
+	   System.out.print(" ");
+	}		
+			   
+    for (int k=1; k<=i; k++)
+				 
+	{
+	    System.out.print(" *");
+	}
+			  
+System.out.println();
+			  
+ }
+}
+}		
+
+------------------------------------------------------------------------------**
+
+PATTERN 15:
+
+*
+**
+* *
+*  *
+*****
+
+class pattern15{
+
+public static void main(String args[])
+{
+
+for(int i=1; i<=5; i++)
+{
+			          
+ for (int k=1; k<=i; k++)
+				 
+    {
+        if(i==k| k==1| i==5)
+		
+	System.out.print("*");
+//if(i>=3 && i<=4 && k>=2 && k<i)
+					  
+	 else
+
+	System.out.print(" ");
+ }
+ System.out.println();
+}
+ }
+}
+
+-------------------------------------------------------------------------**	 
+
+PATTERN 16:
+
+    *
+   **
+  * *
+ *  *
+*****
+
+
+
+class pattern16
+{
+public static void main(String args[])
+{
+for(int i=1; i<=5; i++)
+ {
+    for(int k=4; k>=i ; k--)
+	 {
+	     System.out.print(" ");
+	  }
+			   
+    for (int j=1; j<=i; j++)
+          {
+	     if(i>=3&& i<=4 &&j>=2 && j<i)
+					 
+		System.out.print(" ");
+			 
+	     else
+		System.out.print("*");
+	   }
+			  
+System.out.println();
+}
+}
+}

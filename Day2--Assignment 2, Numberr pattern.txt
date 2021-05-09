@@ -1,0 +1,668 @@
+1) PATTERN 1:
+
+1
+12
+123
+1234
+12345
+
+
+class pattern1
+{
+public static void main(String args[])
+{
+for (int i=1; i<=5; i++)
+{
+for(int j=1; j<=i; j++)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+}
+
+----------------------------------------------------------------------------------**
+2)PATTERN 2:
+
+A
+AB
+ABC
+ABCD
+ABCDE
+
+class pattern16
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 
+		     int alfa=65;
+			 
+		    for( int j=1; j<=i ; j++)
+			
+			    {
+				    System.out.print((char)(alfa++)); 
+				}
+				
+				System.out.println( );
+				
+				}
+				}
+				}
+
+
+------------------------------------------------------------------------**
+
+3)PATTERN 3:
+
+
+*
+**
+***
+****
+*****
+
+
+class pattern3
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 
+		     
+			 
+		    for( int j=1; j<=i ; j++)
+			
+			    {
+				    System.out.print("*"); 
+				}
+				
+				System.out.println( );
+
+				
+				}
+				}
+				}
+
+-------------------------------------------------------------------------**
+
+
+PATTERN 4:
+
+1
+22
+333
+4444
+55555
+
+
+class Pattern4
+{
+public static void main(String args[])
+{
+for (int i=1; i<=5; i++)
+{
+	
+for(int j=1; j<=i; j++)
+{
+System.out.print(i);
+}
+System.out.println();
+}
+}
+}
+
+-----------------------------------------------------------------------------**
+
+
+PATTERN 5:
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+class pattern5
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 
+		     int alfa=64;
+			 
+		    for( int j=1; j<=i ; j++)
+			
+			    {
+				    System.out.print((char)(alfa+i)); 
+				}
+				
+				System.out.println( );
+				
+				}
+				}
+				}
+
+------------------------------------------------------------------------------------**
+
+
+
+
+PATTERN 6:
+
+    *
+   **
+  ***
+ ****
+*****
+
+class pattern6
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 	 
+		    for( int j=4; j>=i ; j--)
+			
+			    {
+				    System.out.print("  "); 
+				}
+				
+				
+		    for( int k=1; k<=i ; k++)
+			
+			    {
+				    System.out.print("*"); 
+				}		
+				
+				System.out.println( );
+				
+				}
+				}
+				}
+
+
+-------------------------------------------------------------------------------**
+PATTERN 7:
+
+      1
+     1 2
+    1 2 3
+   1 2 3 4
+  1 2 3 4 5
+
+
+
+class pattern7
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 
+		 for(int k=5; k>=i; k--)
+			 
+			 {
+				 System.out.print(" ");
+			 }
+		 
+		 
+		for( int j=1; j<=i ; j++)
+			
+			    {
+				    System.out.print(" "+j); 
+				}
+			
+			System.out.println( );
+				
+		}
+				}
+				}
+
+-------------------------------------------------------------------**
+PATTERN 8:
+
+     5
+    4 5
+   3 4 5
+  2 3 4 5
+ 1 2 3 4 5
+
+class pattern8
+{
+public static void main(String args[])
+{
+
+
+   for (int i=5; i>=1; i--)
+     {
+         for(int j=1; j<=5; j++)
+               {
+			   
+	       if(j<i)
+	      System.out.print(" ");
+				   
+	       else
+	    System.out.print(" "+j);
+					 
+               }
+			   
+			 
+                 System.out.println();
+
+	 }
+}
+}
+
+----------------------------------------------------------------------------**
+
+PATTERN 9:
+
+      A
+     A B
+    A B C
+   A B C D
+  A B C D E
+
+class Num9
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 int alfa=65;
+		 
+		 
+		 for(int k=5; k>=i; k--)
+			 
+			 {
+				 System.out.print(" ");
+			 }
+		 
+		 
+		 for( int j=1; j<=i ; j++)
+			
+			 {
+			         System.out.print(" "+(char)(alfa++)); 
+		         }
+				
+			System.out.println( );
+				
+		}
+}
+}
+-----------------------------------------------------------------------------**
+PATTERN 10:
+
+      E
+     D E
+    C D E
+   B C D E
+  A B C D E
+
+
+
+class pattern10
+{
+
+public static void main(String args[])
+
+{
+
+for (int i=5; i>=1; i--)
+     { 
+ 
+          int a=64;
+		  
+         for(int j=1; j<=i; j++)
+               {
+		 System.out.print(" ");
+				   
+	       }  
+	         
+	 for(int k=i; k<=5; k++)
+               {
+		  System.out.print(" "+ (char)(a+k));
+				   
+	       } 
+	    System.out.println();
+					 
+      }
+ }
+}
+
+
+--------------------------------------------------------------------------**
+
+PATTERN 11:
+
+     *
+    ***
+   *****
+  *******
+ *********
+
+class pattern11
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 
+		 for(int k=5; k>=i; k--)
+			 
+			 {
+				 System.out.print(" ");
+			 }
+		 
+		for( int j=1; j<=i ; j++)
+			
+			    {
+				    System.out.print("*"); 
+				}
+			
+		for( int l=2; l<=i ; l++)
+			
+			    {
+				    System.out.print("*"); 
+				}	
+			
+		System.out.println( );
+				
+		}
+				}
+				}
+
+
+--------------------------------------------------------------------------**
+
+ PATTERN 12:
+
+     1
+    2 2
+   3 3 3
+  4 4 4 4
+ 5 5 5 5 5
+
+
+class pattern12
+{
+public static void main(String args[])
+{
+  for (int i=1; i<=5; i++)
+     {
+         for(int j=5; j>=1; j--)
+               {
+			   
+                    if(j>i)
+	           System.out.print(" ");
+				   
+	            else
+					 
+		 System.out.print(" "+i);
+					 
+               }
+               System.out.println();
+
+	 }
+}
+}
+
+
+-------------------------------------------------------------------------------------**
+PATTERN 13:
+
+     A
+    BB
+   CCC
+  DDDD
+ EEEEE
+
+
+
+class pattern13
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+		 {
+		 int a= 64;
+		 
+		  for(int k=5; k>=i; k--)
+			 
+			 {
+				 System.out.print(" ");
+			 }
+		 
+		 
+		 for( int j=1 ; j<=i ; j++)
+			
+			    {
+				    System.out.print((char)(a+i)); 
+			    }
+				
+			  System.out.println( );
+				
+		}
+	}
+}
+				
+				
+
+-----------------------------------------------------------------------------------**
+PATTERN 14:
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+class Num14
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=5; i>=1; i--)
+  {
+			 
+for( int j=1; j<=i ; j++)
+  {
+  System.out.print(j +" "); 
+					
+   }
+				
+System.out.println( );
+				
+	}
+}
+}		    
+
+-------------------------------------------------------------------------------------**
+
+PATTERN 15:
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+class Num15
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=1; i<=5; i++)
+         
+ {
+			 
+  for( int j=5; j>=i ; j--)
+			
+	 {
+	  System.out.print(j +" "); 
+					
+	}
+				
+ System.out.println( );
+				
+}
+}
+}
+
+----------------------------------------------------------------**
+
+PATTERN 16:
+
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+
+class Num16
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=5; i>=1; i--)
+         
+ {
+			 
+    for( int j=5; j>=i ; j--)
+			
+    {
+	  System.out.print(j +" "); 
+					
+    }
+				
+System.out.println( );
+				
+}
+}
+}
+
+----------------------------------------------------------------**
+
+PATTERN 17:
+
+ 1
+ 2 3
+ 4 5 6
+ 7 8 9 10
+ 11 12 13 14 15
+
+class Num17
+{
+
+public static void main(String args[])
+
+{
+
+int count=0;
+
+for(int i=1; i<=5; i++)
+         
+{
+			 
+			 
+   for( int j=1; j<=i ; j++)
+			
+	{
+					
+	  count=count+1;
+					
+	  System.out.print(" "+count); 
+					
+	}
+				
+  System.out.println( );
+				
+}
+}
+}
+
+----------------------------------------------------------------------**
+
+
+PATTERN 18:
+
+A B C D E
+A B C D
+A B C
+A B
+A
+
+
+class Num18
+{
+
+public static void main(String args[])
+
+{
+
+for(int i=5; i>=1; i--)
+         
+ {
+   int alfa=65;
+			 
+   for( int j=1; j<=i ; j++)
+			
+	 {
+		  System.out.print((char)(alfa++)+" "); 
+					
+         }
+				
+	  System.out.println( );
+}
+}
+}
+
+
+
+
+
